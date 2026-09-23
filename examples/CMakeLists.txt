@@ -1,0 +1,8 @@
+add_executable(lo_example_observe observe_and_explain.cpp)
+target_link_libraries(lo_example_observe PRIVATE LossObservatory::loss_observatory LossObservatory::Warnings)
+
+add_executable(lo_example_persist persist_and_recover.cpp)
+target_link_libraries(lo_example_persist PRIVATE LossObservatory::loss_observatory LossObservatory::Warnings)
+
+add_executable(lo_example_export export_and_reparse.cpp)
+target_link_libraries(lo_example_export PRIVATE LossObservatory::loss_observatory LossObservatory::Warnings)

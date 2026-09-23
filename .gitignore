@@ -1,0 +1,32 @@
+# Build trees
+/build/
+/build-*/
+/out/
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+*.vcxproj*
+*.sln
+*.user
+compile_commands.json
+.ninja_deps
+.ninja_log
+
+# Local scratch / debris
+/.scratch/
+/tmp/
+*.log
+*.dmp
+*.pdb
+*.ilk
+*.obj
+*.exe
+*.lib
+*.exp
+
+# Editor / OS
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

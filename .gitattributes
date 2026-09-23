@@ -1,0 +1,8 @@
+# Normalise line endings in the repository so a fresh clone is byte-identical
+# on every platform.
+* text=auto eol=lf
+
+# Binary artifacts, should any ever be committed.
+*.png binary
+*.jpg binary
+*.loj binary
